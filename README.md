@@ -1,6 +1,6 @@
 # Social Network Human/Bot Detection
 
-Binary classification of Twitter/Weibo accounts as **human** or **bot**, built for the [1st Social Collective Intelligence Algorithm Competition (赛题一)](). Two modelling approaches are implemented: a gradient boosting classifier on structured profile features, and a BERT-based transformer on account descriptions.
+Binary classification of Twitter/Weibo accounts as **human** or **bot**, built for the [1st Social Collective Intelligence Algorithm Competition (track 1)](). Two modelling approaches are implemented: a gradient boosting classifier on structured profile features, and a BERT-based transformer on account descriptions.
 
 ---
 
@@ -149,4 +149,3 @@ jupyter notebook transformer.ipynb
 > **Note:** All scripts and notebooks contain hardcoded local file paths. Search for `read_excel`, `to_excel`, or path strings and update them before running.
 
 
-```
